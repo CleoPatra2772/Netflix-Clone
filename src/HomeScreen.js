@@ -1,3 +1,4 @@
+import Banner from './Banner';
 import './HomeScreen.css';
 import NavBar from './NavBar';
 const HomeScreen = () => {
@@ -7,6 +8,7 @@ const HomeScreen = () => {
             <NavBar />
             
             {/* Banner */}
+            <Banner />
 
             {/* Rwos */}
         </div>
